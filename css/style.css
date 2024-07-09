@@ -1,16 +1,16 @@
 
 /*Reseteo Box Modeling*/
 
-*{
+/* *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+} */
 
 
 /*Estilos generales fuentes*/
 
-@font-face {
+/* @font-face {
     font-family:AkatabMarca;
     src: url("../assets/fonts/Akatab/Akatab-Regular.ttf");
 }
@@ -29,31 +29,31 @@ h2 {
     color:#4f514f;
     font-size: 20px;
     font-weight: bold;
-    }
+    } */
 
-p {
+/* p {
     color:#4f514f;
     font-size: 18px;
     text-align: center;
-}
+} */
 
-body {
+/* body {
     font-family: "AkatabMarca";
-}
+} */
 
 /*Estilos del footer*/
 
-footer p {
+/* footer p {
     text-align: center;
-}
+} */
 
-.redesSociales {
+/* .redesSociales {
     margin: 10px;
-}
+} */
 
 /*Estilos del nav*/
 
-nav {
+/* nav {
     background-color: whitesmoke;
     width: 100%;
 }
@@ -78,11 +78,11 @@ color: #02402e;
 
 .navbarNavDropdown {
     color: #02402e;
-}
+} */
 
 /*Estilos del header*/
 
-header ul {
+/* header ul {
     list-style-type: none;
     padding: 25px,10px,25px,10px;
     display:flex;
@@ -91,11 +91,11 @@ header ul {
 
 header ul a {
     text-decoration: none;
-    }
+    } */
 
 /*Estilos generales imagenes*/
 
-img {
+/* img {
     width: 100%;
 }
 
@@ -116,12 +116,12 @@ height: 50%;
     right:0;
     bottom: 0;
     z-index: 1;
-}
+} */
 
 
 /*Box Modeling*/
 
-h1 {
+/* h1 {
     padding: 5px;
 }
 
@@ -155,25 +155,25 @@ div {
 
 .logoSize {
     padding: 10px;
-}
+} */
 
 /*Pseudoclases y componentes*/
 
-header ul a:hover{
+/* header ul a:hover{
     color: #02402e;
-}
+} */
 
-.grids img:hover{
+/* .grids img:hover{
     box-shadow: 0px 0px 20px black;
     border-radius: 5px;
-}
+} */
 
-.map:hover{
+/* .map:hover{
     padding-left: 50px;
     transform: scale(1.15);
-}
+} */
 
-.btn:hover {
+/* .btn:hover {
     box-shadow: 0px 0px 10px black;
     background-color: #162d4f;
     color: white;
@@ -183,16 +183,16 @@ header ul a:hover{
 .btn {
     background-color: #162d4f;
     color: white;
-}
+} */
 
-.form-check-input:checked {
+/* .form-check-input:checked {
     background-color: #162d4f;
     border-color: white;
-}
+} */
 
 /*Grids*/
 
-.grids {
+/* .grids {
 
     display: grid;
     text-align: center;
@@ -239,13 +239,13 @@ header ul a:hover{
     width: 80%;
     height: 100%
   
-}
+} */
 
 
 /*Responsive*/
 
 /* tablet entre 769 y 1024px */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     header ul{
         flex-direction: column;
     }
@@ -275,7 +275,7 @@ width: 100%;
 height: 100%;
 }
 
-}
+} */
 
 /* FIN tablet entre 769 y 1024px */
 
@@ -283,7 +283,7 @@ height: 100%;
 /* mobile entre 320 y 768px */
 
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     
 
     .grids {
@@ -352,7 +352,7 @@ p {
     font-size: 12px;
 }
 
-}
+} */
 
 /* FIN mobile entre 320 y 768px */
 

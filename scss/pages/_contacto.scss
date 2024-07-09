@@ -1,0 +1,17 @@
+.map {
+    width: 90%;
+    max-width: 800px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, padding-left 0.3s ease;
+    
+}
+
+.map:hover{
+    padding-left: 50px;
+    transform: scale(1.15);
+
+}

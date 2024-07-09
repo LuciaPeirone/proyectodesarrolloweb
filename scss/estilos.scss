@@ -1,0 +1,35 @@
+
+/*Utilities*/
+@import "./utilities/variables";
+@import "./utilities/mixin";
+@import "./utilities/extend";
+@import "./utilities/globales";
+
+
+/*components*/
+@import "./components/buttons";
+@import "./components/header";
+@import "./components/footer";
+@import "./utilities/grids";
+
+
+/*pages*/
+
+@import "./pages/main-index";
+@import "./pages/accidentes";
+@import "./pages/contacto";
+@import "./pages/segurosparaempresas";
+@import "./pages/segurosparapersonas";
+@import "./pages/sobrenosotros";
+
+
+/*media queries*/
+
+@import "./utilities/media-queries"
+
+
+
+
+
+
+

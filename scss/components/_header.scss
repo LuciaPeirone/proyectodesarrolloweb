@@ -1,0 +1,47 @@
+   
+header {
+
+    ul {
+        list-style-type: none;
+        padding: 25px,10px,25px,10px;
+        display:flex;
+        justify-content: space-around;
+    }
+    
+   ul a {
+        text-decoration: none;
+        }
+    
+    ul a:hover{
+            color: $maincolor;
+        }
+        
+
+   .navIndex  {
+    position:fixed;
+    top:0;
+    z-index:1;
+   }
+
+   .navbar-brand {
+    color: $maincolor;
+   }
+
+   .navbarNavDropdown {
+    color: $maincolor;
+   }
+
+   .nav-link{
+    color: $maincolor;
+    }
+
+   .nav-item{
+    color: $detailscolor;
+    }
+
+    nav {
+        background-color: whitesmoke;
+        width: 100%;
+    }
+    
+}

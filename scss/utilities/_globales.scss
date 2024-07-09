@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*Estilos generales fuentes*/
+
+@font-face {
+    font-family:AkatabMarca;
+    src: url("../assets/fonts/Akatab/Akatab-Regular.ttf");
+}
+
+h1 {
+    color: $maincolor;
+    font-size: 24px;
+}
+
+h2 {
+    color: $secondarycolor;
+    font-size: 20px;
+}
+
+.secondaryColor {
+    color:$secondarycolor;
+    font-size: 20px;
+    font-weight: bold;
+    }
+
+p {
+    color:$secondarycolor;
+    font-size: 18px;
+    text-align: center;
+}
+
+body {
+    font-family: $maintypography;
+} 
+
+
+/*Estilos generales imagenes*/
+
+img {
+    width: 100%;
+}
+
+
+.logoSize {
+    margin:10px,1px;
+    width:8%;
+    padding: 10px;
+}
+
+.wspIcon {
+    width: 50px;
+    margin:25px;
+    position: fixed;
+    right:0;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+/*Box Modeling*/
+
+
+h1 {
+    @extend %padding;
+}
+
+h2 {
+    padding: 10px;
+}
+
+h3 {
+    @extend %padding;
+}
+
+h4 {
+    @extend %padding;
+}
+
+h5 {
+    @extend %padding;
+}
+
+h6 {
+    @extend %padding;
+}
+
+p {
+    @extend %padding;
+}
+
+div {
+    @extend %padding;
+}
+
+.redesSociales {
+    margin: 10px;
+}
+
+@font-face {
+    font-family:AkatabMarca;
+    src: url("../assets/fonts/Akatab/Akatab-Regular.ttf");
+}

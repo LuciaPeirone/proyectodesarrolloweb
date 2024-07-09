@@ -1,0 +1,11 @@
+@mixin flexbox ($flex-d, $justify-c, $text-align) {
+    display: flex;
+    flex-direction: $flex-d;
+    justify-content: $justify-c;
+    text-align: $text-align;
+}
+
+header ul {
+    @include flexbox(inherit, space-around, inherit);
+}
+

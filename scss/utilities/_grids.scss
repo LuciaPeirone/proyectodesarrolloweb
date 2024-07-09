@@ -1,0 +1,72 @@
+/*Grids*/
+
+.grids {
+
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2,215px);
+    grid-template-areas:
+    "institucional accidentes art responsabilidadCivil"
+    "institucional vida hogar automovil";
+    }
+
+.institucional {
+    grid-area: institucional;
+    width: 65%;
+    height: auto;
+}
+
+ .accidentes {
+    grid-area: accidentes;
+}
+
+.art {
+    grid-area: art;
+}
+
+
+.responsabilidadCivil {
+    grid-area: responsabilidadCivil;
+}
+
+
+.vida {
+    grid-area: vida;
+}
+
+.automovil {
+    grid-area: automovil;
+}
+
+.hogar {
+    grid-area: hogar;
+}
+
+.grids img {
+    width: 65%;
+    height: 100%
+  
+} 
+
+// .grids img:hover{
+//     box-shadow: 0px 0px 20px black;
+//     border-radius: 5px;
+// } 
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity:1;
+    }
+}
+
+.grids img:hover{
+    animation-duration: 1s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}

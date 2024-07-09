@@ -1,0 +1,92 @@
+#sobreNosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;  
+
+
+
+.card {
+    
+background-image: linear-gradient(120deg, #acacac 10%, #646464 50%);
+width: 90%;
+max-width: 800px;
+height: auto;
+border-radius: 10px;
+border: 1px solid darkgrey;
+box-shadow: 0 10px 20px black;
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: 0 auto;
+position:relative;
+
+
+*{
+    transition: 400ms;
+}
+
+&:hover{
+
+    .cardImg {
+        transform: translateY(28px);
+        transition: 0.3s ease;
+
+        img {
+            transform: translate(16px,42px) rotate(16deg) scale(1.4);
+            transition: 0.3s ease;
+        }
+    }
+
+    .cardContent {
+        opacity: 1;
+        transition: opacity 0.3s ease;
+    }
+ }
+
+}
+
+.cardImg img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;   
+}
+
+.cardContent {
+
+    opacity: 0;
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    text-align: right; 
+    z-index: 1; 
+    width: auto; 
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 3s;
+
+}
+
+.cardContent h2 {
+
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    margin: 0;
+    }
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+} 
