@@ -1,47 +1,47 @@
    
 header {
 
-    ul {
-        list-style-type: none;
-        padding: 25px,10px,25px,10px;
-        display:flex;
-        justify-content: space-around;
-    }
-    
-   ul a {
-        text-decoration: none;
-        }
-    
-    ul a:hover{
-            color: $maincolor;
-        }
-        
-
-   .navIndex  {
-    position:fixed;
-    top:0;
-    z-index:1;
+   .container-fluid {
+    background-color: whitesmoke ;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: 100%;
    }
 
-   .navbar-brand {
+   .navbar-brand, .nav-link {
+    font-size: 1.25rem; 
     color: $maincolor;
-   }
+}
 
    .navbarNavDropdown {
     color: $maincolor;
    }
 
-   .nav-link{
+   .dropdown-menu {
+    background-color: whitesmoke; 
+
+}
+
+.dropdown-item {
+    color: $secondarycolor; 
+}
+
+   .nav-item{
     color: $maincolor;
     }
 
-   .nav-item{
-    color: $detailscolor;
+    .headerColor{
+        background-color: $maincolor;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+        padding: 40px;
+        width: 100%;
+    } 
+
+    .dropdown-item:hover {
+        color: $maincolor; 
     }
 
-    nav {
-        background-color: whitesmoke;
-        width: 100%;
+    .nav-link {
+        color: $maincolor !important;
     }
-    
 }
+

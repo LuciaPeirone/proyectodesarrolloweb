@@ -1,13 +1,109 @@
 /*Estilos del footer*/
 
-footer{
-    
-    p {
-    text-align: center;
-}
-}
-
-.footerColor {
+.footerStyle {
     background-color: #ededed;
     padding: 20px;
+    position: relative; 
+    height: 55vh;
+
+    p{
+        text-align: center;
+        margin: 0;
+        padding: 25px;
     }
+   
+    }
+
+
+.ssnImg {
+    width: 15%;
+    position: absolute;
+    left: 80%; 
+    top: 60%;
+}
+
+.subtitle {
+    font-size: 15px;
+}
+
+.iconStyle, .iconstyleDos, .iconstyleTres, .iconstyleCuatro {
+    width: 2%;
+    position: absolute;
+    bottom: 100%; 
+    display: flex;
+    z-index: 10;
+}
+
+
+.iconStyle {
+    left: 6%;
+    top: 64%;
+}
+
+.iconstyleDos {
+    left: 10%;
+    top: 64%;
+}
+
+.iconstyleTres {
+    left: 14%;
+    top: 64%;
+}
+
+.iconstyleCuatro {
+    width: 5%;
+    left:50%;
+    top: 70%;
+    position: absolute; 
+    display: flex;
+}
+
+.sobrenosotrosFooter {
+  
+    padding: 20px;
+    position: relative; 
+    height: 55vh;
+   
+
+    p{
+        text-align: center;
+        margin: 0;
+        padding: 25px;
+    }
+   
+    }
+
+.subtitle {
+    font-size: 15px;
+}
+
+.iconStyle, .iconstyleDos, .iconstyleTres, .iconstyleCuatro {
+    width: 2%;
+    position: absolute;
+    bottom: 100%; 
+    display: flex;
+}
+
+
+.iconStyle {
+    left: 6%;
+    top: 64%;
+}
+
+.iconstyleDos {
+    left: 10%;
+    top: 64%;
+}
+
+.iconstyleTres {
+    left: 14%;
+    top: 64%;
+}
+
+.iconstyleCuatro {
+    width: 5%;
+    left:50%;
+    top: 70%;
+    position: absolute; 
+    display: flex;
+}

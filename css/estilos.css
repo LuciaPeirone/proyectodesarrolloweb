@@ -7,7 +7,7 @@ header ul {
 }
 
 div, p, h6, h5, h4, h3, h1 {
-  padding: 5px;
+  padding: 15px;
 }
 
 .btn:hover {
@@ -19,6 +19,8 @@ div, p, h6, h5, h4, h3, h1 {
 .btn {
   background-color: #162d4f;
   color: white;
+  padding: 10px;
+  margin: 10px;
 }
 
 * {
@@ -64,9 +66,19 @@ img {
 }
 
 .logoSize {
-  margin: 10px, 1px;
-  width: 8%;
-  padding: 10px;
+  padding: 5px;
+  background-color: #ffffff;
+  border-radius: 20%;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100vh;
+  max-width: 150px;
+  max-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .wspIcon {
@@ -92,48 +104,138 @@ h2 {
   src: url("../assets/fonts/Akatab/Akatab-Regular.ttf");
 }
 /*components*/
-header ul {
-  list-style-type: none;
-  padding: 25px, 10px, 25px, 10px;
-  display: flex;
-  justify-content: space-around;
+header .container-fluid {
+  background-color: whitesmoke;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+  width: 100%;
 }
-header ul a {
-  text-decoration: none;
-}
-header ul a:hover {
-  color: #02402e;
-}
-header .navIndex {
-  position: fixed;
-  top: 0;
-  z-index: 1;
-}
-header .navbar-brand {
+header .navbar-brand, header .nav-link {
+  font-size: 1.25rem;
   color: #02402e;
 }
 header .navbarNavDropdown {
   color: #02402e;
 }
-header .nav-link {
-  color: #02402e;
+header .dropdown-menu {
+  background-color: whitesmoke;
+}
+header .dropdown-item {
+  color: #4f514f;
 }
 header .nav-item {
-  color: #162d4f;
+  color: #02402e;
 }
-header nav {
-  background-color: whitesmoke;
+header .headerColor {
+  background-color: #02402e;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 40px;
   width: 100%;
+}
+header .dropdown-item:hover {
+  color: #02402e;
+}
+header .nav-link {
+  color: #02402e !important;
 }
 
 /*Estilos del footer*/
-footer p {
-  text-align: center;
-}
-
-.footerColor {
+.footerStyle {
   background-color: #ededed;
   padding: 20px;
+  position: relative;
+  height: 55vh;
+}
+.footerStyle p {
+  text-align: center;
+  margin: 0;
+  padding: 25px;
+}
+
+.ssnImg {
+  width: 15%;
+  position: absolute;
+  left: 80%;
+  top: 60%;
+}
+
+.subtitle {
+  font-size: 15px;
+}
+
+.iconStyle, .iconstyleDos, .iconstyleTres, .iconstyleCuatro {
+  width: 2%;
+  position: absolute;
+  bottom: 100%;
+  display: flex;
+  z-index: 10;
+}
+
+.iconStyle {
+  left: 6%;
+  top: 64%;
+}
+
+.iconstyleDos {
+  left: 10%;
+  top: 64%;
+}
+
+.iconstyleTres {
+  left: 14%;
+  top: 64%;
+}
+
+.iconstyleCuatro {
+  width: 5%;
+  left: 50%;
+  top: 70%;
+  position: absolute;
+  display: flex;
+}
+
+.sobrenosotrosFooter {
+  padding: 20px;
+  position: relative;
+  height: 55vh;
+}
+.sobrenosotrosFooter p {
+  text-align: center;
+  margin: 0;
+  padding: 25px;
+}
+
+.subtitle {
+  font-size: 15px;
+}
+
+.iconStyle, .iconstyleDos, .iconstyleTres, .iconstyleCuatro {
+  width: 2%;
+  position: absolute;
+  bottom: 100%;
+  display: flex;
+}
+
+.iconStyle {
+  left: 6%;
+  top: 64%;
+}
+
+.iconstyleDos {
+  left: 10%;
+  top: 64%;
+}
+
+.iconstyleTres {
+  left: 14%;
+  top: 64%;
+}
+
+.iconstyleCuatro {
+  width: 5%;
+  left: 50%;
+  top: 70%;
+  position: absolute;
+  display: flex;
 }
 
 /*Grids*/
@@ -198,16 +300,57 @@ footer p {
 main .sectionBanner img {
   width: 180%;
   height: 50%;
+  border-radius: 2%;
 }
 
-.headerColor {
-  background-color: #ededed;
-  padding: 20px;
+.container {
+  height: 80vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.containerStyle,
+.containerstyleDos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  border-radius: 20%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #e6e6e6;
+  overflow: hidden;
+  width: 400px;
+  height: 300px;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.containerstyleDos {
+  position: absolute;
+  left: 130%;
+  top: 60%;
 }
 
 .form-check-input:checked {
   background-color: #162d4f;
   border-color: white;
+}
+
+.servicesstylestitleDos {
+  font-size: 20px;
+  font-weight: 700;
+  color: #02402e;
+}
+
+.form-check {
+  margin: 20px;
 }
 
 .map {
@@ -224,6 +367,44 @@ main .sectionBanner img {
 .map:hover {
   padding-left: 50px;
   transform: scale(1.15);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.servicesstylesTitle {
+  font-size: 40px;
+  font-weight: 700;
+  color: #02402e;
+}
+
+#servicesheadTitle {
+  font-size: 40px;
+  font-weight: 700;
+  color: #02402e;
+}
+
+.servicesstylesbody {
+  font-size: 18px;
+}
+
+.ServicesHead {
+  color: #4f514f;
+  font-size: 50px;
+  font-weight: 700;
 }
 
 #sobreNosotros {
@@ -297,8 +478,11 @@ main .sectionBanner img {
   }
 }
 
+.servicesstylesbodyTres {
+  font-size: 20px;
+}
+
 /*media queries*/
-/*Responsive*/
 /* tablet entre 769 y 1024px */
 @media screen and (max-width: 1024px) {
   header ul {
@@ -318,6 +502,18 @@ main .sectionBanner img {
   .institucional {
     width: 100%;
     height: 100%;
+  }
+  .card {
+    flex-direction: row;
+    height: auto;
+  }
+  .logoSize {
+    max-width: 120px;
+    max-height: 120px;
+  }
+  main .sectionBanner img {
+    width: 150%;
+    height: 50%;
   }
 }
 /* FIN tablet entre 769 y 1024px */
@@ -347,10 +543,6 @@ main .sectionBanner img {
   .grids img {
     width: 100%;
     height: auto;
-  }
-  .logoSize {
-    margin: 10px 1px;
-    width: 20%;
   }
   h1 {
     font-size: 16px;
@@ -382,15 +574,55 @@ main .sectionBanner img {
     width: 100%;
     height: auto;
   }
-}
-/* FIN mobile entre 320 y 768px */
-/* Media Queries sobre nosotros */
-@media (max-width: 1024px) {
-  .card {
-    flex-direction: row;
+  .logoSize {
+    max-width: 60px;
+    max-height: 55px;
+  }
+  main .sectionBanner img {
+    width: 120%;
+    height: 50%;
+  }
+  .footerStyle {
     height: auto;
+    padding: 10px;
+  }
+  .footerStyle p {
+    padding: 10px;
+  }
+  .ssnImg {
+    width: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 78%;
+  }
+  .subtitle {
+    font-size: 12px;
+  }
+  .iconStyle, .iconstyleDos, .iconstyleTres {
+    width: 6%;
+    bottom: auto;
+    top: auto;
+  }
+  .iconStyle {
+    left: 5%;
+    top: 90%;
+  }
+  .iconstyleDos {
+    left: 15%;
+    top: 90%;
+  }
+  .iconstyleTres {
+    left: 25%;
+    top: 90%;
+  }
+  .iconstyleCuatro {
+    width: 6.5%;
+    left: 35%;
+    top: 90%;
   }
 }
+/* FIN mobile entre 320 y 768px */
+/* celular entre 320 y 480px */
 @media (max-width: 480px) {
   .cardContent {
     font-size: 1.5rem;
@@ -398,6 +630,19 @@ main .sectionBanner img {
   .card {
     padding: 10px;
   }
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .containerStyle, .containerstyleDos {
+    width: 100%;
+    height: auto;
+  }
+  .containerstyleDos {
+    position: static;
+    margin-top: 20px;
+  }
 }
+/* FIN celular entre 320 y 480px */
 
 /*# sourceMappingURL=estilos.css.map */
