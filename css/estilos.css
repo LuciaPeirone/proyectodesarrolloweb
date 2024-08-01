@@ -482,6 +482,42 @@ main .sectionBanner img {
   font-size: 20px;
 }
 
+.container404 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  font-family: var(--font-family);
+  text-align: center;
+}
+
+.error-content {
+  max-width: 600px;
+}
+
+.error-content h1 {
+  font-size: 10rem;
+  margin-bottom: 1rem;
+}
+
+.error-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.error-content .btn {
+  background-color: #02402e;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
 /*media queries*/
 /* tablet entre 769 y 1024px */
 @media screen and (max-width: 1024px) {
@@ -644,5 +680,14 @@ main .sectionBanner img {
   }
 }
 /* FIN celular entre 320 y 480px */
+/* Media Querie Error 404*/
+@media (max-width: 600px) {
+  .error-content h1 {
+    font-size: 6rem;
+  }
+  .error-content p {
+    font-size: 1.25rem;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */

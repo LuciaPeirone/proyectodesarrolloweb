@@ -226,4 +226,14 @@ main .sectionBanner img {
 
 /* FIN celular entre 320 y 480px */
 
+/* Media Querie Error 404*/
 
+@media (max-width: 600px) {
+    .error-content h1 {
+        font-size: 6rem;
+    }
+    
+    .error-content p {
+        font-size: 1.25rem;
+    }
+}
